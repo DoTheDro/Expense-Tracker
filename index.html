@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container main-dashboard">
+	<h1>Expense Tracker</h1>
+	<h2>Add A New Item:</h2>
+	<form method="post" id="form">
+		<label for="name">Name</label>
+		<input type="text" name="name" id="inputName" placeholder="Where was the expense made?">
+		<label for="date">Date</label>
+		<input type="datetime-local" name="date" id="inputDate">
+		<label for="amount">Amount</label>
+		<input type="text" name="amount" id="inputAmount">
+		<input type="submit" name="submit" id="submitBtn" value="Add Expense">
+	</form>
+	<div class="container">
+		<h2 id="errorText"></h2>
+	</div>
+</div>
+
+<div class="container table-section">
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Date</th>
+			<th>Amount</th>
+			<th></th>
+		</tr>
+		<tr id="defaultTr">
+			<td colspan="4">No expenses added yet!</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+<script defer src="index.js"></script>
+</html>

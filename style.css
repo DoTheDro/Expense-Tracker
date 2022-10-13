@@ -1,0 +1,57 @@
+.main-dashboard {
+	text-align: center;
+	padding: 15px 0;
+}
+
+.main-dashboard h1 {
+	font-size: 50px;
+	font-weight: 400;
+}
+
+.main-dashboard h2 {
+	color: #1F9644;
+	font-size: 28px;
+}
+
+.main-dashboard label {
+	color: #000;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.main-dashboard input#inputName {
+	width: 90%;
+	margin: 5px 0;
+}
+
+.main-dashboard input#inputDate, .main-dashboard input#inputAmount {
+	width: 41%;
+	margin: 5px 0;
+}
+
+.main-dashboard input#submitBtn {
+	background-color: #1F9644;
+	color: #FFF;
+	border: 0px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.table-section {
+	padding: 20px 0;
+}
+
+.table-section table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table-section td, .table-section th {
+	border: 1px solid #DDD;
+	padding: 15px;
+}
+
+.table-section tr:nth-child(even) {
+	background-color: #e9e9e9;
+}
